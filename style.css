@@ -1,0 +1,203 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* ######## make it sticky! Thnx Ryan Fait ####### */
+* {
+  margin: 0; }
+
+html, body {
+  height: 100%; }
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -200px; }
+
+footer, .push {
+  height: 200px; }
+
+/* ######## GENERAL ######## */
+body {
+  background-color: white;
+  font-size: 18px;
+  font-family: Georgia, serif; }
+
+/* ######## FONTE ######## */
+h2 {
+  font-size: 24px;
+  color: #0067a7;
+  margin-bottom: 20px; }
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 12px; }
+
+h4 {
+  color: rgba(70, 70, 79, 0.89); }
+
+p {
+  margin-bottom: 20px; }
+
+p.author {
+  font-style: oblique;
+  color: #5f808e; }
+
+/* ######## HEADER ######## */
+header {
+  width: 100%;
+  background: #0067a7;
+  height: 50px;
+  margin-bottom: 40px;
+  padding-top: 5px; }
+
+nav {
+  margin: 0 auto;
+  width: 700px; }
+
+nav ul li {
+  display: inline;
+  list-style: none; }
+
+nav a {
+  color: white;
+  font-family: Roboto, serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: oblique;
+  font-size: 28px; }
+
+nav li img {
+  width: 20px;
+  height: auto;
+  padding-right: 10px; }
+
+/* ######## CONTENT ######## */
+section {
+  padding-bottom: 30px; }
+
+#contentwrap, article {
+  margin: 10px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 4px;
+  width: 300px;
+  border: 2px solid #0067a7; }
+
+article {
+  width: 600px;
+  padding: 40px 40px 20px 60px; }
+
+/* ######## FORM ######## */
+#loginform {
+  margin: 10px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 4px;
+  width: 600px;
+  border: 2px solid #0067a7; }
+
+input, textarea {
+  display: block; }
+
+input[type="text"] {
+  margin-bottom: 10px; }
+
+input[type="text"], input[type="password"], textarea#content {
+  border: 2px solid #0067a7;
+  border-radius: 2px;
+  width: 300px;
+  font-family: georgia;
+  font-weight: 800;
+  color: maroon;
+  padding: 5px;
+  margin-top: 10px; }
+
+input[type="radio"] {
+  margin: 0 0 20px 0;
+  margin-right: 10px; }
+
+input[type="submit"] {
+  margin-top: 20px;
+  -webkit-appearance: none;
+  border: none;
+  padding: 10px;
+  font-family: Georgia, serif;
+  font-size: 20px;
+  color: white;
+  background: #0067a7; }
+
+/* ######## FOOTER ######## */
+footer {
+  background: #0067a7; }
+
+.footerwrap {
+  padding-top: 40px;
+  width: 700px;
+  margin: 0 auto; }
+
+.footerwrap h4 {
+  padding-bottom: 10px; }
+
+.footerwrap h4, .footerwrap p, .footerwrap a {
+  color: white;
+  font-family: Georgia, serif; }
+
+/* ######## IMG & FLARE ######## */
+.userimg {
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: -100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 3px solid #0067a7;
+  float: left; }
+
+.userimg img {
+  width: 80px;
+  height: auto; }
